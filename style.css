@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+
+#container {
+    padding: 50px;
+    height: calc(100vh - 100px);
+}
+
+#fetched-data,
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fetched-data {
+    height: inherit;
+}
+
+#fetched-data>* {
+    padding: 10px 0;
+}
+
+.disclaimer {
+    margin-top: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 15px 0;
+}
+
+ul li h3 {
+    font-size: 24px;
+}
+
+button {
+    align-self: flex-end;
+}
+
+#loader {
+    height: 50vh;
+}
+
+#loader.display {
+    display: block;
+}
